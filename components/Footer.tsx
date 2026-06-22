@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
             {/* Social */}
             <div className="flex items-center gap-3">
-              {socialLinks.map(({ icon: Icon, label, href }) => (
+              {socialLinks.map(({ icon: Icon, label, href }, index) => (
                 <motion.a
                   key={label}
                   href={href}
@@ -111,7 +111,7 @@ export default function Footer() {
                   whileTap={{ scale: 0.95 }}
                   className="w-9 h-9 rounded-xl bg-slate-800 hover:bg-indigo-600 border border-white/5 flex items-center justify-center text-slate-400 hover:text-white transition-all duration-200"
                 >
-                  <Icon className="w-4 h-4" />
+                  <Icon className="w-4 h-4" style={index === 0 ? { fontSize: "24px" } : undefined} />
                 </motion.a>
               ))}
             </div>
