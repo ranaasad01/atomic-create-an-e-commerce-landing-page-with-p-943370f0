@@ -538,6 +538,7 @@ export default function HomePage() {
               <motion.h2
                 variants={fadeInUp}
                 className="font-playfair text-4xl md:text-5xl font-bold text-slate-900 tracking-tight text-balance"
+              style={{ color: "#0b4be0" }}
               >
                 Featured Products
               </motion.h2>
