@@ -26,7 +26,7 @@ const featuredProducts = [
     rating: 4.9,
     reviews: 214,
     badge: "Best Seller",
-    image: "https://thearcshop.com/cdn/shop/products/the-arc-vintage-56_530x@2x.jpg?v=1617828077",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/943370f0-d57c-45df-bd8e-b2a98e47788e/9d6ee5ac86014d2cbd56e62688567475.png",
     colors: ["#e8e0d5", "#c4b9a8", "#8a7968"],
   },
   {
@@ -267,7 +267,7 @@ function ProductCard({
       </div>
 
       {/* Content */}
-      <div className="p-4 flex flex-col flex-1 gap-2">
+      <div className="p-4 flex flex-col flex-1 gap-2" style={{ color: "#134bcd" }}>
         <span className="text-xs font-medium text-indigo-600 uppercase tracking-wide">
           {product.category}
         </span>
