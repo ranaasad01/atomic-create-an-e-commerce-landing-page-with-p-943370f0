@@ -267,7 +267,7 @@ function ProductCard({
       </div>
 
       {/* Content */}
-      <div className="p-4 flex flex-col flex-1 gap-2" style={{ color: "#134bcd" }}>
+      <div className="p-4 flex flex-col flex-1 gap-2" style={{ color: "#134bcd", fontSize: "17px" }}>
         <span className="text-xs font-medium text-indigo-600 uppercase tracking-wide">
           {product.category}
         </span>
